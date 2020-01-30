@@ -23,7 +23,7 @@ size(400,400);
 
 void draw(){
   background(255);
-  for(int i= 0; i<50; i+=1){
+  for(int i= 0; i<100; i++){
     x[i]+=dx[i];
     y[i]+=dy[i];
     //colorRelleno[i]+= 0.1;
