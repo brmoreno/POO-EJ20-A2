@@ -24,14 +24,11 @@ size(400,400);
 
 void draw(){
   background(255);
-  
-  for(int i= 0; i<50; i+=1){
+  for(int i= 0; i<100; i++){
     x[i]+=dx[i];
     y[i]+=dy[i];
-    //colorRelleno[i]+= 0.1;
     dibujarMono(x[i],y[i],t[i],colorRelleno[i]);
   }
-
   dibujarPersonaje(posX,posY,30);
 }
 
@@ -55,8 +52,8 @@ void keyPressed(){
 void dibujarMono(float x_, float y_, float t_, color c_){
   noStroke();
   float altura = conAltura(t_);
-  triangle(x_,y_+altura,x_+t_,y_+altura,x_+(t_/2),y_);
   fill(c_);
+  triangle(x_,y_+altura,x_+t_,y_+altura,x_+(t_/2),y_);
   ellipseMode(CORNER);
   fill(#F2C1D0);
   ellipse(x_,y_+altura,t_,t_);
