@@ -1,4 +1,4 @@
-# Especifiación del proyecto 1
+# Especificación del proyecto 1
 En este proyecto debes desarrollar un juego de peleas por turnos siguiendo el modelo de combate de videojuegos RPG como Final Fantasy y Pokemon, o una versión simplificada de juegos de cartas como Magic: The Gathering y Yu-Gi-Oh!, bajo las siguientes especificaciones:
 1)	El juego debe tener al menos 5 personajes. Cuatro de los personajes pueden venir de mundos de ficción pre-existentes, pero al menos uno debe ser una creación personal original.
 2)	El flujo de pantallas, los jugadores y los personajes deben estar estructurados como clases y la dinámica del juego debe estar centrada en utilizar los atributos y métodos de los objetos que utilices.
