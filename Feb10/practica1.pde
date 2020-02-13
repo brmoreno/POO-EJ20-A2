@@ -15,7 +15,7 @@ class Particula{
   
   void display(){
     noStroke();
-    fill(this.c);
+    fill(c);
     ellipse(x,y,r*2,r*2);
   }
   
