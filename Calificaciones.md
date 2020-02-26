@@ -33,4 +33,17 @@
 | 342794             | 30/01/20 |          |          |         |         |         | 6   |
 | 146815             |          |          |          |         |         |         | 4   |
 | 146888             |          |          |          |         |         |         | 7   |
- * Pasar a revisión 
+ *Pasar a revisión 
+
+
+### Rubrica Proyecto 1
++ (0, 0.5) Pasa de pantalla de inicio a pantalla de seleccion 
++ (0, 1.0) Pantalla de selección permite muestra todos los personajes
++ (0, 1.0) Se eligen los personajes y se muestran en pantall de pelea
++ (0, 4.0) La pelea se ejecuta por turnos y se resuelve
++ (0, 0.5) Se muestra al ganador en la pantalla de resolución
++ (0, 1.0) se reinicia sin problemas
++ (0, 2.0) diseño de clases
++ (-4.0, 0) implementación de clases en programa
++ (-6.0, 0) bugs
++ (0, 2.0) diseño visual o de interfaz sobresaliente 
