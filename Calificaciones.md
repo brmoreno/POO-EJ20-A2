@@ -36,7 +36,7 @@
  *Pasar a revisión 
 
 
-### Rubrica Proyecto 1
+### Rúbrica Proyecto 1
 + (0, 0.5) Pasa de pantalla de inicio a pantalla de seleccion 
 + (0, 1.0) Pantalla de selección permite muestra todos los personajes
 + (0, 1.0) Se eligen los personajes y se muestran en pantall de pelea
