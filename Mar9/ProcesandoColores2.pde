@@ -13,7 +13,7 @@ void draw(){
       //tomar el color almacenado en i,j de mi PIMage
       color c= gato.get(i,j);
       float r = red(c)+sin(red(c)*0.1)*50;
-      float g = map(sin(green(c)*0.03),-1,1,0,255);
+      float g = map(sin(green(c)*0.07),-1,1,0,255);
       float b = blue(c) + sin(i*0.01)*100;
       stroke(r,g,b);
       point(i,j);  
